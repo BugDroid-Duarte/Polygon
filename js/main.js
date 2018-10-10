@@ -26,13 +26,6 @@ function generateNum (array, randNumber, randNumber2) {
    return array;
 }
 
-var array = [];
-
-for (i = 0; i <= 9; i++) {
-    var random = Math.floor((Math.random() * 10) + 1);
-    array[i] = random;
-}
-
 array.pop();
 array.pop();
 array.pop();
