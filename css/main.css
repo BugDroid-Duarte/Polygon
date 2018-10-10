@@ -1,0 +1,23 @@
+.left {
+    width: 50%;
+    background-color: black;
+}
+
+.right {
+    width: 50%;
+    background-color: blue;
+}
+
+.container {
+    display: -webkit-box;
+}
+
+li {
+    display: inline;
+    color: white;
+    padding: 5px;
+}
+
+.right ul li:nth-child(odd) {
+    background-color: yellow;
+}
